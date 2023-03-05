@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { flims } from "../redux/FlimsList/flimsSlice";
 import { Link } from "react-router-dom";
 
+import Movie from "../Components/Home/Movie";
+
 function Home() {
   const dispatch = useDispatch();
 
@@ -41,14 +43,7 @@ function Home() {
           {
            moviesData && moviesData.map((val, index) => {
             return (
-              <Link className="fl-movie" to={`/movie/${index+1}`}>
-                <div className="col fl-movie__inwrap" key={index}>
-                  <div className="fl-movie__inwrap">
-                    <div className="fl-movie__poster"><img src="./images/home/star-wars-poster.jpg" /></div>
-                    <div className="fl-movie__name">{val.title}</div>
-                  </div>
-                </div>
-              </Link>
+              <Movie key={index} link={index} title={val.title} />
             )
            })
           }
