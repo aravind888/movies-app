@@ -1,0 +1,17 @@
+#{$app} {
+    &- {
+        &title {
+            &__ {
+                &banner {
+                    font-size: var(--fs-title);
+                }
+                &section {
+                    font-size: var(--fs-section);
+                }
+                &block {
+                    font-size: var(--fs-block);
+                }
+            }
+        }
+    }
+}

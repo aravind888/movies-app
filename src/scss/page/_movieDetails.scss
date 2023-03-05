@@ -1,0 +1,40 @@
+#{$app}- {
+    &movie {
+        &__ {
+            &banner {
+                width: 300px;
+
+                @media (min-width: 768px) {
+                    width: 400px;
+                }
+            }
+            &cast {
+                margin-top: 60px;
+                &- {
+                    &inwrap {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                }
+                
+            }
+            &character {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                margin-right: 30px;
+
+                &- {
+                    &img {
+                        width: 40px;
+                        height: 40px;
+                        background: #7c7c7c59;
+                        border-radius: 100px;
+                        flex-shrink: 0;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
