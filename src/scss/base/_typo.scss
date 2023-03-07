@@ -7,9 +7,22 @@
                 }
                 &section {
                     font-size: var(--fs-section);
+                    line-height: calc(var(--fs-section) + 10px);
+                    font-family: var(--ff-roboto);
+                    font-weight: 700;
+                    color: #ffffff;
                 }
                 &block {
                     font-size: var(--fs-block);
+                }
+            }
+        }
+        &para {
+            font-size: var(--fs-para);
+
+            &-- {
+                &white {
+                    color: #ffffff;
                 }
             }
         }

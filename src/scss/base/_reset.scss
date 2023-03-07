@@ -1,11 +1,12 @@
 ul, li {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
 }
 
 a{ 
     display: inline-block;
-    text-decoration: none;
+    text-decoration: none !important;
     transition: all 0.2s ease;
 }
 
