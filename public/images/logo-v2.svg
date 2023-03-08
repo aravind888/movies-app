@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170.308" height="77.616" viewBox="0 0 170.308 77.616">
+  <g id="Group_2" data-name="Group 2" transform="translate(1174.308 681.308)">
+    <g id="logo" transform="translate(-1174.308 -681.308)">
+      <path id="Path_1" data-name="Path 1" d="M247.5,461.272h38.808V455H268.657A38.623,38.623,0,0,1,247.5,461.272Z" transform="translate(-208.692 -383.656)" fill="#2488ff"/>
+      <path id="Path_2" data-name="Path 2" d="M38.808,63.5a7.84,7.84,0,1,1,0-15.68V29.792a7.84,7.84,0,1,1,0-15.68V0a38.808,38.808,0,0,0,0,77.616ZM21.952,46.648a7.84,7.84,0,1,1,7.84-7.84A7.849,7.849,0,0,1,21.952,46.648Z" fill="#00479b"/>
+      <path id="Path_3" data-name="Path 3" d="M286.308,38.808A38.808,38.808,0,0,0,247.5,0V14.112a7.84,7.84,0,0,1,0,15.68V47.824a7.84,7.84,0,0,1,0,15.68V77.616a38.8,38.8,0,0,0,38.808-38.808Zm-21.952-7.84a7.84,7.84,0,1,1-7.84,7.84A7.849,7.849,0,0,1,264.356,30.968Z" transform="translate(-208.692)" fill="#003068"/>
+      <path id="Path_4" data-name="Path 4" d="M197.5,97.84A7.84,7.84,0,1,0,205.34,90,7.849,7.849,0,0,0,197.5,97.84Z" transform="translate(-166.532 -75.888)" fill="#46f8ff"/>
+      <path id="Path_5" data-name="Path 5" d="M97.84,197.5a7.84,7.84,0,1,0,7.84,7.84A7.849,7.849,0,0,0,97.84,197.5Z" transform="translate(-75.888 -166.532)" fill="#46f8ff"/>
+      <path id="Path_6" data-name="Path 6" d="M197.5,312.84a7.84,7.84,0,1,0,7.84-7.84A7.849,7.849,0,0,0,197.5,312.84Z" transform="translate(-166.532 -257.176)" fill="#46f8ff"/>
+      <path id="Path_7" data-name="Path 7" d="M312.84,213.18a7.84,7.84,0,1,0-7.84-7.84A7.849,7.849,0,0,0,312.84,213.18Z" transform="translate(-257.176 -166.532)" fill="#46f8ff"/>
+    </g>
+    <text id="MOVIE_CITY" data-name="MOVIE
+CITY" transform="translate(-1084 -646)" fill="#003068" font-size="30" font-family="Impact" letter-spacing="0.04em"><tspan x="0" y="0">MOVIE</tspan><tspan x="0" y="32">CITY</tspan></text>
+    <text id="MOVIE_CITY-2" data-name="MOVIE
+CITY" transform="translate(-1086 -646)" fill="#00479b" font-size="30" font-family="Impact" letter-spacing="0.04em"><tspan x="0" y="0">MOVIE</tspan><tspan x="0" y="32">CITY</tspan></text>
+  </g>
+</svg>

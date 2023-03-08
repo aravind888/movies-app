@@ -8,8 +8,7 @@ const Movie = (props) => {
                     <div className="fl-movie__inwrap">
                         <div className="fl-movie__poster position-relative">
                             <img src="./images/home/star-wars-poster.jpg" />
-                            <div className="fl-button__play position-absolute start-0 end-0 top-0 bottom-0 m-auto" >
-                            </div>
+                            <div className="fl-button__play position-absolute start-0 end-0 top-0 bottom-0 m-auto" ></div>
                         </div>
                         <div className="ps-3">
                             <div className="fl-movie__name">{props.title}</div>

@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { flims } from "../redux/FlimsList/flimsSlice";
 import { Link } from "react-router-dom";
 
+
 import Movie from "../Components/Home/Movie";
 
 function Home() {
@@ -15,15 +16,15 @@ function Home() {
   const moviesData = useSelector(state => state.allFlims && state.allFlims.flimsList && state.allFlims.flimsList.results)
   const movieLoading = useSelector(state => state.allFlims && state.allFlims && state.allFlims.loading )
 
-
   console.log(moviesData   , "flims")
+
 
   return (
     <>
       <section className="fl-section p-0">
         <div className="">
           <div className="fl-hero__row d-flex flex-column-reverse  flex-lg-row flex-wrap align-items-center justify-content-end">
-            <div className="fl-hero__col fl-hero__col-left pe-5 mt-4 mt-lg-0">
+            <div className="fl-hero__col fl-hero__col-left pe-lg-5 mt-4 mt-lg-0">
               <div className="fl-hero__content-wrap">
                 <h2 className="fl-hero__title text-uppercase fw-bold mb-0">Star Wars</h2>
                 <div className="fl-hero__movie-season">Season 1</div>
@@ -68,11 +69,16 @@ function Home() {
               {
                 Array.from(Array(4), (e, i) => {
                   return (
-                    <div className="fl-movie">
-                      <div className="col fl-movie__inwrap" key={i}>
-                        <div className="fl-movie__inwrap">
-                          <div className="fl-movie__poster"><span className="fl-movie__poster--placeholder"></span></div>
-                          <div className="fl-movie__name"><div className="fl-movie__name--placeholder"></div></div>
+                    <div className="col-md-6 col-lg-4">
+                      <div className="fl-movie">
+                        <div className="col fl-movie__inwrap" key={i}>
+                          <div className="fl-movie__inwrap">
+                            <div className="fl-movie__poster"><span className="fl-movie__poster--placeholder"></span></div>
+                            <div className="ps-3">
+                                <div className="fl-movie__name--placeholder"></div>
+                                <div className="fl-movie__episode-count fl-movie__episode-count--placeholder"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>

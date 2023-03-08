@@ -11,9 +11,13 @@ a{
 }
 
 main {
-    padding-top: 60px;
+    // padding-top: 60px;
 }
 
 img {
     width: 100%;
 }
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}   

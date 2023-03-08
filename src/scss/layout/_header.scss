@@ -1,0 +1,13 @@
+#{$app}- {
+    &nav {
+        &__ {
+            &link {
+                color: #ffffff !important;
+
+                &:hover {
+                    color: var(--color-secondary) !important;
+                }
+            }
+        }
+    }
+}
